@@ -1,12 +1,13 @@
 ---
-import Nav from '../components/Nav.astro';
+import Layout from "../layouts/Layout.astro";
+import Main from "../components/Main.astro";
+import H1 from "../components/H1.astro";
 ---
 
-<body>
-<Nav />
+<Layout title="About Neon Company" description="Amazing Sites at Amazing Speeds">
+    <Main>
+        <H1 text="Why Neon is Different"></H1>
+        <p>Lots of text talking about stuff Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore minus placeat ullam? Aspernatur consequuntur, delectus dolor iste minus neque obcaecati officia perferendis quae ratione, reiciendis, repellat sapiente tempora ullam ut?</p>
+    </Main>
+</Layout>
 
-<h1>Why Work with Neon</h1>
-<p>
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aliquid, autem commodi corporis cupiditate, et explicabo facilis ipsam nam, neque ratione sunt voluptate voluptatem. Explicabo itaque minima numquam odit pariatur!
-</p>
-</body>
