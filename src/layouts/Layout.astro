@@ -21,6 +21,16 @@ const {title, description} = Astro.props;
     <title>{title}</title>
     <meta name="description" content={description} />
     <ViewTransitions />
+    <!-- Matomo Tag Manager -->
+    <script>
+        var _mtm = window._mtm = window._mtm || [];
+        _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
+        (function() {
+            var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+            g.async=true; g.src='https://cdn.matomo.cloud/brandonlagasse.matomo.cloud/container_byYnxIvL.js'; s.parentNode.insertBefore(g,s);
+        })();
+    </script>
+    <!-- End Matomo Tag Manager -->
 </head>
 <body>
     <Header />
